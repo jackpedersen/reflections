@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I was able to point out the lines that were different from each other.
+I scrolled down the output from windows' cmd and I quickly saw that the
+word 'space' was misspelled 'spacr'. So I guess I am the hero of the day.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I would be able to correct the mistakes that I would have made.
+I woud be able to remember how I solved a spicific issue once.
+
+What do you think are the pros and cons of manually choosing when to create a commit like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+It will become a lot easier to get an overview of the changes that have been made in the history of a file, vs a lot of saved versions in Google Docs.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I think it help to get an overwiev, so that you now that by a given date and time, a particular set of files is up to date. Or to make sure that you get all the necesary files at the same time, if you need it, so that you don't have to look elsewhere for the files.
+
+How can you use the commands  git log and git diff to view the history of files?
+
+The syntaxes are: git log 
+and: git diff <id1> <id2>
+git log tells you the id's with a comment attached to it about the change and git diff tells what lines have been deleted or added comparing to commits (i.e. saved files).
+
+How might using version control make you more confident to make changes that could break something?
+
+I now that I would always be able to look back at my changes, that introduced a bug. So I would not be afraid of making mistakes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+For making apps and perhaps games like 'asteroids' or make my own 'tank trouble' game. That would be cool.
